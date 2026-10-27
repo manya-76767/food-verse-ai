@@ -11,3 +11,5 @@ dependencies = [
 
 [tool.uv]
 package = false
+[tool.vercel]
+entrypoint = "artifacts/food-verse-ai/backend/app.py"
